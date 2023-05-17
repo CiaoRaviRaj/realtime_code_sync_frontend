@@ -65,7 +65,7 @@ const Home = () => {
           </button>
           <span className="createInfo">
             If you don't have an invite then create &nbsp;
-            <a onClick={createNewRoom} href="" className="createNewBtn">
+            <a onClick={createNewRoom} href="#" className="createNewBtn">
               new room
             </a>
           </span>
@@ -74,7 +74,12 @@ const Home = () => {
       <footer>
         <h4>
           Built with 💛 &nbsp; by &nbsp;
-          <a href="https://github.com/codersgyan">CiaoRaviRaj</a>
+          <a
+            href="https://github.com/CiaoRaviRaj/realtime_code_sync_frontend"
+            target="_blank"
+            rel="noreferrer">
+            CiaoRaviRaj
+          </a>
         </h4>
       </footer>
     </div>

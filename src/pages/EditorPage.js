@@ -10,6 +10,7 @@ import {
   useParams,
 } from "react-router-dom";
 import { toast } from "react-hot-toast";
+import Loader from "../components/Loader";
 
 function EditorPage() {
   const render = 1;
@@ -101,9 +102,13 @@ function EditorPage() {
           </div>
           <h3>Connected</h3>
           <div className="clientsList">
-            {clients.map((client) => (
-              <Client key={client?.socketId} username={client?.username} />
-            ))}
+            {clients.length === 0 ? (
+              <Loader />
+            ) : (
+              clients.map((client) => (
+                <Client key={client?.socketId} username={client?.username} />
+              ))
+            )}
           </div>
         </div>
         <button className="btn copyBtn" onClick={copyRoomId}>
