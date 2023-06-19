@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Code Sync Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Code Sync is a collaborative coding platform that allows you to code in sync with your friends and mates. With Code Sync, you can create a room and easily share it with your friends to start coding together. This project utilizes the power of real-time synchronization, enabling seamless collaboration among multiple users.
 
-## Available Scripts
+## Screenshots
 
-In the project directory, you can run:
+![Home Screen](https://i.ibb.co/2n2xCJJ/Screenshot-2023-06-19-at-13-28-40.png)
 
-### `npm start`
+![Code Interface](https://i.ibb.co/ZgN13zm/Screenshot-2023-06-19-at-13-30-10.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technology Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The following technologies and tools were used in the development of this project:
 
-### `npm test`
+- Socket.js: The project utilizes Socket.js behind the scenes for real-time code synchronization.
+- API Integration: An API for Socket.js was integrated to facilitate the communication between clients.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## GitHub Repository
 
-### `npm run build`
+The backend of the Code Sync project is hosted on GitHub. You can find the repository at [https://github.com/CiaoRaviRaj/realtime_code_sync_api](https://github.com/CiaoRaviRaj/realtime_code_sync_api).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To deploy the backend, you need to follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Set up a Node.js server.
+2. Clone the repository using `git clone https://github.com/CiaoRaviRaj/realtime_code_sync_api.git`.
+3. Install the dependencies using `npm install`.
+4. Start the server using `npm start`.
+5. Obtain the server link and save it as `REACT_APP_BACKEND_URL` in your frontend application's environment variables or configuration.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to contribute to the project by creating issues, submitting pull requests, or forking the repository. Let's code together and enjoy real-time collaboration!
